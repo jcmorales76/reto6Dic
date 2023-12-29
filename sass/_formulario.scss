@@ -1,0 +1,57 @@
+.formulario_contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  grid-gap: 40px;
+
+  .formulario_grid {
+    display: flex;
+    background-color: $primario;
+
+    .formulario__contenido {
+      &__titulo {
+        color: $blanco;
+        font-size: 36px;
+        font-family: $fuente_principal;
+        padding: 65px;
+        text-align: center;
+      }
+
+      &__campos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 30px;
+        color: $blanco;
+
+        &__div {
+          display: flex;
+          flex-direction: column;
+
+          &__input {
+            padding: 15px;
+          }
+        }
+        &__boton {
+          padding: 15px;
+          margin-top: 25px;
+          border-radius: 15px;
+          background-color: $secundario;
+          box-shadow: none;
+          color: $blanco;
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .formulario_imagen {
+      padding-top: 40px;
+
+      &__img {
+        width: 575px;
+      }
+    }
+  }
+}

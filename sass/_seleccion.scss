@@ -1,0 +1,35 @@
+.seleccion {
+  margin-top: 50px;
+
+  &__contenido {
+    background-color: $primario;
+    margin-top: -30px;
+    text-align: center;
+    color: $blanco;
+    font-family: $fuente_principal;
+    font-size: 20px;
+    line-height: 10px;
+    padding-top: 35px;
+  }
+  &__grid__contenedor {
+    //display: grid;
+    //
+    // justify-content: center;
+    background-color: $primario;
+
+    &__row {
+      width: 95%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding-top: 30px;
+    }
+
+    .seleccion__pasos {
+      &__img {
+        max-width: 400px;
+      }
+    }
+  }
+}

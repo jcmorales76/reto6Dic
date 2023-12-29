@@ -1,0 +1,35 @@
+
+.header_contenedor{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $fuente_principal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+        img{
+            width: 300px;
+        }
+
+        .menu{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            width: auto;
+
+            a{
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            color: $negro;
+            }
+            .menu__link--registro{
+                background-color: $primario;
+                padding: 12px 30px;
+                color: $blanco;
+                border-radius: 10px;
+            }
+        }
+    
+}
