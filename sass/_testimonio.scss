@@ -1,7 +1,11 @@
 .testimonio__contenedor {
   // width: 95%;
   // max-width: 1200px;
-  // margin: 0 auto;
+  // margin: 0 auto
+  
+  &__titulo {
+    text-align: center;
+  }
 
   &__row {
     display: grid;
@@ -51,10 +55,8 @@
       width: 225px;
       background-color: $secundario;
       border-radius: 10px;
-      
     }
-    
-    
+
     .tres {
       grid-column: 5/6;
       width: 250px;
@@ -62,27 +64,25 @@
       background-color: $secundario;
       border-radius: 10px;
       padding: 1px 10px;
-      
     }
-    .otro{
+    .otro {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 0;
 
-      &__imgc{
-       width: 60px; 
-       height: 60px;
-      }
-      
-    }
-    .testimonio__header__nombre{
-      &__p{
-        font-size:15px;
+      &__imgc {
+        width: 60px;
+        height: 60px;
       }
     }
-    .test_img{
-      width:60px;
+    .testimonio__header__nombre {
+      &__p {
+        font-size: 15px;
+      }
+    }
+    .test_img {
+      width: 60px;
     }
     .cuatro {
       grid-column: 1/3;
@@ -91,7 +91,7 @@
       border-radius: 10px;
     }
     .cinco {
-      grid-column: 3/5 ;
+      grid-column: 3/5;
       width: 468px;
       background-color: $secundario;
       border-radius: 10px;

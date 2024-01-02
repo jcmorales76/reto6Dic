@@ -1,0 +1,38 @@
+.ganaDinero__Contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+
+    .ganaDinero_img {
+        img {
+            width: 575px;
+        }
+    }
+
+    .ganaDinero_contendido {
+        p {
+            color: $secundario;
+            line-height: 1.5;
+            font-size: 20px;
+            padding-bottom: 15px;
+            padding-left: 12px;
+        }
+
+        button {
+            background-color: $primario;
+            border: none;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 0.8rem 3rem;
+            border-radius: 10px;
+            color: $blanco;
+
+        }
+    }
+
+}

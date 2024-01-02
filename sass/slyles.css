@@ -106,6 +106,9 @@
   max-width: 400px;
 }
 
+.testimonio__contenedor__titulo {
+  text-align: center;
+}
 .testimonio__contenedor__row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -181,6 +184,135 @@
   width: 468px;
   background-color: #455a64;
   border-radius: 10px;
+}
+
+.restaurantes__contenedor {
+  background-color: #eceeef;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+}
+.restaurantes__contenedor__titulo {
+  text-align: center;
+  font-size: 35px;
+  color: #455a64;
+}
+.restaurantes__contenedor__favoritos {
+  display: grid;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  box-shadow: 0px 0px 2.6rem -0.8rem #99a4a9;
+  border-radius: 10px;
+  grid-gap: 20px;
+  width: 95%;
+  max-width: 1200px;
+  height: 303.48px;
+  background-color: #ffffff;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid__img {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid img {
+  width: 115px;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 50px;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid__contenido img {
+  width: 200px;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid__contenido h3 {
+  color: #e8505b;
+  font-size: 24px;
+}
+.restaurantes__contenedor .restaurantes__contenedor__favoritos .favoritos__grid__contenido p {
+  margin-top: -10px;
+  color: #455a64;
+  font-size: 17px;
+}
+
+.ganaDinero__Contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.ganaDinero__Contenedor .ganaDinero_img img {
+  width: 575px;
+}
+.ganaDinero__Contenedor .ganaDinero_contendido p {
+  color: #455a64;
+  line-height: 1.5;
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 12px;
+}
+.ganaDinero__Contenedor .ganaDinero_contendido button {
+  background-color: #e8505b;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.8rem 3rem;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #455a64;
+  padding-top: 22px;
+  color: #ffffff;
+}
+.footer h3 {
+  font-size: 32px;
+}
+.footer nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 2.4rem;
+}
+.footer p {
+  font-size: 20px;
+  line-height: 2rem;
+  padding-right: 50px;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer .copyright {
+  background-color: #e8505b;
+  text-align: center;
+  padding: 20px;
 }
 
 *,
